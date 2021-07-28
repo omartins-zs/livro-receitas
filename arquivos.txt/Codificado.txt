@@ -1,0 +1,5 @@
+// Padrão
+1° - d595afa5f0a4282342506bc7f1106e6acebff53b
+
+// Alterado
+2° - e42255da699f17de89828536b38411095b1a13e9

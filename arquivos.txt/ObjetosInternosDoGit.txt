@@ -1,0 +1,39 @@
+Aprendizados:
+
+1- Blob
+2- Tree
+
+Obs: Lorem_Ipsum(nome do arquivo .txt criado),
+Respostas sha1 (onde vai ser passado a criptografia de 40 caracteres)
+-------------------------------------------------
+
+1 Blob
+
+// Usando echo e função do Git open ssl e sha1
+echo 'Lorem_Ipsum' | git hash-object --stdin
+Resposta sha1 ........
+
+// Usando apenas o echo e open ssl e sha1
+echo -e 'Lorem_Ipsum' | openssl sha1
+Resposta sha1 ........
+
+/////////////////////////////////////////////////////
+
+// Usando echo e função do Git open ssl e sha1
+echo 'Lorem_Ipsum' | git hash-object --stdin
+Resposta sha1 ........
+
+
+// Usando echo e função do Git, open ssl e sha1 e blob
+echo -e 'blob 9\0Lorem_Ipsum' | openssl sha1
+Resposta sha1 ........
+
+--------------------------------------------------------
+
+2 Tree(árvore)
+
+
+
+3 Commit
+
+Documentation Markdown: https://www.markdownguide.org/basic-syntax/
